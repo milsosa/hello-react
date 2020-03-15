@@ -1,0 +1,31 @@
+{
+  "name": "hello-react",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/app.js",
+  "scripts": {
+    "build": "babel src -d dist --copy-files",
+    "build:watch": "babel --watch src -d dist --copy-files"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "i18next": "^19.3.2",
+    "i18next-sync-fs-backend": "^1.1.1",
+    "react": "^16.13.0",
+    "react-dom": "^16.13.0",
+    "react-i18next": "^11.3.3",
+    "styled-components": "^5.0.1"
+  },
+  "devDependencies": {
+    "@types/i18next": "^13.0.0",
+    "@types/react-i18next": "^8.1.0",
+    "@types/styled-components": "^5.0.1",
+    "babel-plugin-styled-components": "^1.10.7",
+    "@babel/cli": "^7.8.4",
+    "@babel/core": "^7.8.7",
+    "@babel/preset-env": "^7.8.7",
+    "@babel/preset-react": "^7.8.3"
+  }
+}

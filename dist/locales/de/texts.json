@@ -1,0 +1,4 @@
+{
+    "title": "Testen React SSR",
+    "greeting": "Hallo {{person.name}}!"
+}
